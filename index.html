@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <link rel="stylesheet" href="styles/predefined.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="loader_page" class="center">
+      <div id="loader" class="center">
+        <div id="loader2" class="center">
+          <div id="loader3"></div>
+        </div>
+      </div>
+    </div>
+    <div id="theWebsite">
+      <header>
+        <div id="navbar" class="row">
+          <a id="logo" href="#"
+            ><img src="img/logo.png" alt="logo" height="50px"
+          /></a>
+          <a class="title" href="#"><span>MouhSoft</span> Startup</a>
+          <div id="nav" class="row">
+            <a class="item center">
+              <div class="border"></div>
+              About
+            </a>
+            <a class="item center">
+              <div class="border"></div>
+              Products
+            </a>
+            <a class="item center">
+              <div class="border"></div>
+              Support
+            </a>
+          </div>
+        </div>
+      </header>
+      <section id="hero" class="column center">
+        <div id="welcome" class="center">
+          <span id="WelcomeL">Hello </span>
+          <span id="WelcomeR">World!</span>
+        </div>
+        <div id="buttonsR" class="center">
+          <button id="firstButton">Download</button>
+          <button id="secondButton">Learn More</button>
+        </div>
+      </section>
+      <section id="wss" class="center">
+        <button class="ws_button" id="previous" onclick="move(-1)">
+          Previous
+        </button>
+        <div id="wss_holder" class="center">
+          <div class="ws column">
+            <img src="https://picsum.photos/id/10/1366" />
+            <div class="content">
+              <strong>First</strong><br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita, exercitationem?
+            </div>
+          </div>
+          <div class="ws column">
+            <img src="https://picsum.photos/id/20/1366" />
+            <div class="content">
+              <strong>Second</strong><br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita, exercitationem?
+            </div>
+          </div>
+          <div class="ws column">
+            <img src="https://picsum.photos/id/30/1366" />
+            <div class="content">
+              <strong>Third</strong><br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita, exercitationem?
+            </div>
+          </div>
+          <div class="ws column">
+            <img src="https://picsum.photos/id/40/1366" />
+            <div class="content">
+              <strong>Fourth</strong><br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita, exercitationem?
+            </div>
+          </div>
+          <div class="ws column">
+            <img src="https://picsum.photos/id/50/1366" />
+            <div class="content">
+              <strong>Fourth</strong><br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita, exercitationem?
+            </div>
+          </div>
+        </div>
+        <button class="ws_button center" id="next" onclick="move(1)">
+          <div id="seg_con">
+            <div id="seg_a" class="seg"></div>
+            <div id="seg_b" class="seg"></div>
+            <div id="seg_c" class="seg"></div>
+          </div>
+        </button>
+      </section>
+    </div>
+    <div style="height: 500px"></div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

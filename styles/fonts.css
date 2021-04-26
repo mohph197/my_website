@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Sans_L;
+    src: url("../fonts/ProductSans-Light.ttf");
+  }
+  @font-face {
+    font-family: Sans_R;
+    src: url("../fonts/ProductSans-Regular.ttf");
+  }
+  @font-face {
+    font-family: Sans_B;
+    src: url("../fonts/ProductSans-Bold.ttf");
+  }
+  @font-face{
+    font-family: Sans_BI;
+    src: url("../fonts/ProductSans-BoldItalic.ttf");
+  }
