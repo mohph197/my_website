@@ -12,7 +12,6 @@ window.addEventListener("load", e => {
     loaderPage.style.opacity = 0;
     setTimeout(() => loaderPage.remove(), 2000);
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 let focus_index = 0;
